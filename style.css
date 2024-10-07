@@ -10,8 +10,18 @@ h1 {
     font-size: 3em;
 }
 
+h2 {
+    color: #555;
+    margin-top: 20px;
+}
+
 p {
     font-size: 1.2em;
+}
+
+ul {
+    list-style-type: square;
+    padding: 0;
 }
 
 button {
@@ -27,3 +37,10 @@ button {
 button:hover {
     background-color: #005f73;
 }
+
+img {
+    max-width: 100%; /* Responsive image */
+    height: auto; /* Maintain aspect ratio */
+    margin-top: 20px; /* Spacing */
+}
+
